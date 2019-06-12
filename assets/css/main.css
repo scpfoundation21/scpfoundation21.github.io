@@ -3,20 +3,9 @@ body {
 	font-size: 32px;
 }
 
-a {
-	color:white;
-	text-decoration: none;
-}
-
-a:hover {
-	color:white;
-	text-decoration:underline;
-}
-
 img {
 	width:100%;
-	border:1px solid black;
-	box-shadow: 5px 5px 5px #666;
+	border:1px solid white;
 }
 
 /*img:hover {
@@ -29,6 +18,33 @@ img {
 }
 */
 
+.buynow {
+	color:white;
+	text-decoration:none;
+}
+
+.youtube {
+	text-align:center;
+}
+
+.youtubelink {
+	font-size:25px;
+	font-family:lucida console;
+	color:white;
+	text-decoration:none;
+}
+
+.youtubelink:hover {
+	font-family:lucida console;
+	color:white;
+	background-color:black;
+	text-decoration:underline;
+}
+
+.buynow:hover {
+	color:white;
+	text-decoration:underline;
+}
 
 .examples .content {
 	border-radius: 80px;
@@ -112,7 +128,10 @@ img {
 }
 
 .w-1of2 {
-	font-size:20px;
+	text-align:center; /*aligns the text in w-1of3 to center*/
+	background-color:black;
+	color:white;
+	font-family:courier;
 /*	overflow:scroll; */
 }
 
@@ -133,5 +152,22 @@ img {
 }
 
 .unknown:hover {
+	color:white;
+}
+
+.w-1of1 {
+	text-align:center; /*aligns the text in w-1of3 to center*/
+	background-color:black;
+	color:white;
+	font-family:courier;
+}
+
+.scplink {
+	color:black;
+	background-color:black;
+	text-decoration:none;
+}
+
+.scplink:hover {
 	color:white;
 }
